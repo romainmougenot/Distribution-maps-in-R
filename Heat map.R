@@ -4,9 +4,9 @@ library(spatstat)
 
 ## Import data
 # Vectorial map.
-map <- sf::st_read("ne_10m_coastline/ne_10m_coastline.shp") 
+map <- sf::st_read("nne_10m_coastline.shp") 
 # Inventory data frame with x and y coordinates of points as columns; the two columns shoud be names as x and y respectively
-inventory <- read.csv("amber_inventory_p1.csv", header = TRUE, ";") 
+inventory <- read.csv("inventory.csv", header = TRUE, ";") 
 
 # Bounding box (limits of the spatial box): contains the Nort-West and South-East corners of 
 # the extent of the spatial bow. Data frame with with x min and y min as a column, and x max and y max as a second column.
