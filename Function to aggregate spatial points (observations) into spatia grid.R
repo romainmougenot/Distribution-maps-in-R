@@ -1,3 +1,6 @@
+# The function is a modification of a similar function (aggr_fea_voro) from the "moin" library (MOdelling INteraction: https://gitlab.com/CRC1266-A2/moin)
+# and is adapted to spatial grids. It aggregates georeferenced observations into spatial units (cells). 
+
 ## Import libraries
 library(spatstat)
 library(maptools)
