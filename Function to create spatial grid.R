@@ -8,6 +8,7 @@
 ## Import library
 library(sf)
 
+## Function
 spatial_grid <- function(cellsize, map) {
   g = sf::st_make_grid(st_as_sfc(st_bbox(map) +
                                c(-cellsize/2, - cellsize/2,
