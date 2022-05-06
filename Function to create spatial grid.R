@@ -5,6 +5,9 @@
 # - map: a vectorial or raster map
 # the function returns a spatial frame containing a list of individual cells, which can be plotted and used for spatial analysis
 
+## Import library
+library(sf)
+
 spatial_grid <- function(cellsize, map) {
   g = st_make_grid(st_as_sfc(st_bbox(map) +
                                c(-cellsize/2, - cellsize/2,
