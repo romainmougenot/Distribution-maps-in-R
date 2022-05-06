@@ -9,7 +9,7 @@
 library(sf)
 
 spatial_grid <- function(cellsize, map) {
-  g = st_make_grid(st_as_sfc(st_bbox(map) +
+  g = sf::st_make_grid(st_as_sfc(st_bbox(map) +
                                c(-cellsize/2, - cellsize/2,
                                  cellsize/2, cellsize/2)),
                    what = "polygons", cellsize = cellsize) 
