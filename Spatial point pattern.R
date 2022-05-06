@@ -28,3 +28,4 @@ ppp_inventory <- spatstat.geom::ppp(inventory@coords[,1], inventory@coords[,2], 
 
 ## Plot
 plot(ppp_inventory)
+
