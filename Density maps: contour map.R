@@ -38,7 +38,7 @@ ppp_inventory <- spatstat.geom::ppp(inventory@coords[,1], inventory@coords[,2], 
 
 ## Create and plot contour map
 rw <- 0.2
-# variable to manage the the smoothing bandwidth to be used
+# variable to manage the smoothing bandwidth to be used
 sd <- 0.2
 # create density template from the point pattern
 dens_r5 <- density(ppp_inventory, sd, eps=rw, edge=T, at="pixels")
