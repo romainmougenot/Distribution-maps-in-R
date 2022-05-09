@@ -1,6 +1,3 @@
-library(sf)
-library(spatstat)
-
 ## Libraries for spatial data
 library(sf)
 library(spatstat)
